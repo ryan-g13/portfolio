@@ -1,2 +1,2 @@
-# portfolio
-Portfolio hi-lighting my work and education experience.
+# Portfolio
+Portfolio - (WIP) - hi-lighting my work and education experience.
