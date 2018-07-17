@@ -5,6 +5,8 @@ import { BrowserRouter, Route } from 'react-router-dom';
 //___________________________________________________________
 // Static Components
 //___________________________________________________________
+import Footer from '../footer/footer';
+import Header from '../header/header';
 
 //___________________________________________________________
 // Imported Components
@@ -14,6 +16,11 @@ import { BrowserRouter, Route } from 'react-router-dom';
 export default class App extends React.Component() {
   // stuff here 
   render() {
-    return null;
+    return (
+      <BrowserRouter>
+        <Header/>
+        <Footer/>
+      </BrowserRouter>
+    );
   }
 };
