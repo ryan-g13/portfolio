@@ -2,7 +2,7 @@ import React from 'react';
 
 import './footer.scss';
 
-class Footer extends React.Component() {
+export default class Footer extends React.Component() {
   render() {
     // link footer to contact info???
     return (
@@ -12,5 +12,3 @@ class Footer extends React.Component() {
     );
   }
 }
-
-export default Footer;
