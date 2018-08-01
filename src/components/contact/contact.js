@@ -3,7 +3,7 @@ import './contact.scss';
 
 export default class Contact extends React.Component {
   render() {
-    return(
+    return (
        <div className='contact'>
         <h1>Ryan Groesch</h1>
         <ul>
@@ -13,6 +13,6 @@ export default class Contact extends React.Component {
           <li>Phone?</li>
         </ul>
        </div>
-    )
+    );
   }
 }

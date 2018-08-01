@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import './header.scss';
 
-export default class Header extends React.Component() {
+export default class Header extends React.Component {
   render() {
-    return(
+    return (
       <header className='nav-bar'>
         <div className='logo-container'>
           <img />
@@ -15,7 +15,7 @@ export default class Header extends React.Component() {
         <div className='nav-links'>
           <ul>
             <li>
-              <a href="/" class="hilighted" data-nav="home">HOME</a>
+              <a href="/" className="hilighted" data-nav="home">HOME</a>
             </li>
             <li>
               <a href="/projects" data-nav="projects">PROJECTS</a>
