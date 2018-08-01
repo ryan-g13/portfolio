@@ -1,9 +1,9 @@
 import React from 'react';
 import './landing.scss';
 
-class Landing extends React.Component {
+export default class Landing extends React.Component {
   render() {
-  return(
+    return (
     <div className='landing'>
       <h1>I am Landing Text</h1>
       <ul className='intro'>
@@ -11,5 +11,6 @@ class Landing extends React.Component {
         <li>Bullets</li> 
       </ul>
     </div>
-  )}
+    );
+  }
 }
