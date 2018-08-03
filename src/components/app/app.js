@@ -3,6 +3,7 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Routes from '../../routes';
+import './app.scss';
 
 // ___________________________________________________________
 // Static Components
@@ -31,9 +32,9 @@ export default class App extends React.Component {
           <Route exact path={Routes.CONTACT} component={Contact} />
           <Route exact path={Routes.PROJECTS} component={Projects} />
           <Route exact path={Routes.RESUME} component={Resume} />
-          <Footer />
           </div>
         </BrowserRouter>
+        <Footer />
       </div>
     );
   }

@@ -1,8 +1,20 @@
-header {
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 1em;
   margin-top: 5em;
+  color: #D1E8E2;
+}
+.logo-container {
+  display: inline;
+}
+.nav-links ul li {
+  display: inline;
+  margin: auto;
+}
+.nav-links ul li a {
+  text-decoration: none;
+  margin: 15px; 
   color: #D1E8E2;
 }

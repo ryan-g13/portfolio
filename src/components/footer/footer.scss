@@ -1,7 +1,11 @@
-.footer {
+.footer-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 1em;
-  margin-top: 5em;
+  margin-top: 3em;
+  width: 100%;
+  height: 60px;
+  padding-top: 5%;
+  background-color: #2C3531;
 }
