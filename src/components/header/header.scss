@@ -7,7 +7,7 @@
   color: #D1E8E2;
 }
 .logo-container {
-  display: inline;
+ max-width: 300px;
 }
 .nav-links ul li {
   display: inline;
@@ -17,4 +17,7 @@
   text-decoration: none;
   margin: 15px; 
   color: #D1E8E2;
+}
+.highlighted {
+  background-color: #FFCB9A;
 }

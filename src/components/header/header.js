@@ -8,9 +8,7 @@ export default class Header extends React.Component {
     return (
       <header className='nav-bar'>
         <div className='logo-container'>
-          <img />
-          <h1>Ryan Groesch</h1>
-          <h3>Full-Stack JavaScript Developer(MERN)</h3>
+          <img src='http://via.placeholder.com/300x100' alt='R G Logo'/>
         </div>
         <div className='nav-links'>
           <ul>
@@ -22,6 +20,9 @@ export default class Header extends React.Component {
             </li>
             <li>
               <a href="/contact" data-nav="contact">CONTACT</a>
+            </li>
+            <li>
+              <a href="/resume" data-nav="resume">RESUME</a>
             </li>
           </ul>
         </div>

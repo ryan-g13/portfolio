@@ -5,11 +5,11 @@ export default class Landing extends React.Component {
   render() {
     return (
     <div className='landing'>
-      <h1>I am Landing Text</h1>
-      <ul className='intro'>
-        <li>Intro</li>
-        <li>Bullets</li> 
-      </ul>
+      <div className='heroText'>
+        <h1>Ryan Groesch</h1>
+        <p>Full-Stack Javascript Software Developer(MERN)</p>
+        <p><a href="/contact" data-nav="contact">Hire Me</a></p>
+      </div>
     </div>
     );
   }

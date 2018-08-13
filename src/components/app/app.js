@@ -28,7 +28,7 @@ export default class App extends React.Component {
           <div className='main'>
           <Header />
           <Route path='*' component={Landing} />
-          <Route exact path={Routes.LANDING} component={Landing}/>
+          {/* <Route exact path={Routes.LANDING} component={Landing}/> */}
           <Route exact path={Routes.CONTACT} component={Contact} />
           <Route exact path={Routes.PROJECTS} component={Projects} />
           <Route exact path={Routes.RESUME} component={Resume} />
