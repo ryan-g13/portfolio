@@ -8,7 +8,7 @@ export default class Header extends React.Component {
     return (
       <header className='nav-bar'>
         <div className='logo-container'>
-          <img src='http://via.placeholder.com/300x100' alt='R G Logo'/>
+          <a href='/' data-nav='home'><img src='http://via.placeholder.com/300x100' alt='R G Logo'/></a>
         </div>
         <div className='nav-links'>
           <ul>

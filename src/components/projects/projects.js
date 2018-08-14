@@ -8,7 +8,7 @@ export default class Projects extends React.Component {
         <div className='row' >
           <div className='leftItem' >
             <img src='imageLinkHere' alt='ImageDescription'/>
-            <p><span>Title Field here </span>Long Description of project</p>
+            <p><a href='www.eventus.site'><span>EventUs</span></a></p>
           </div>
           <div className='rightItem' >
             <img src='imageLinkHere' alt='ImageDescription'/>

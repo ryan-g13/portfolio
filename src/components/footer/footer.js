@@ -7,7 +7,7 @@ export default class Footer extends React.Component {
     // link footer to contact info???
     return (
       <footer>
-        <h3 className='footer-content'>&copy; Ryan Groesch - 2018</h3>
+        <a href='/contact' data-nav='contacts' ><h3 className='footer-content'>&copy; Ryan Groesch - 2018</h3></a>
       </footer>
     );
   }
