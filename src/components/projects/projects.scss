@@ -1,5 +1,6 @@
 .projects {
   color: #D1E8E2;
+  margin-top: 15px;
 }
 .row {
   margin: 0 auto;
@@ -9,8 +10,12 @@
 }
 
 .row div {
-  width: 360px;
+  width: 345px;
   display: inline-block;
+  vertical-align: top;
+}
+.leftItem {
+  margin-right: 25px;
 }
 
 span {
