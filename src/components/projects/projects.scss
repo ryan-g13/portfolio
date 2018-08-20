@@ -2,7 +2,15 @@
   color: #D1E8E2;
 }
 .row {
-  columns: 300px, 2;
+  margin: 0 auto;
+  height: 480px;
+  max-width: 720px;
+  border: 2px dotted black;
+}
+
+.row div {
+  width: 360px;
+  display: inline-block;
 }
 
 span {
