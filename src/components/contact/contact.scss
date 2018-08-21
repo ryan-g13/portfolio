@@ -6,15 +6,26 @@
 }
 .contact h2 {
   text-align: left;
-  max-width: 350px;
+  // max-width: 350px;
 }
 
 .contact ul {
   max-width: 350px;
   padding-left: 0px;
   display: inline-block;
+  list-style: none;
+  line-height: 80px;
 }
 
-.contact img {
+.contact li {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.profileImage {
   float: right;
+}
+
+li img {
+  padding-right: 15px;
 }

@@ -35,14 +35,25 @@ export default class Landing extends React.Component {
             <tr>
               <th colSpan="6">Medium Proficiency </th> 
             </tr>
-              <tr>
-                <td>PostgreSQL</td>
-                <td>Oracle SQL</td> 
-                <td>SQL-lite</td>
-                <td>MySQL</td>
-                <td>Python</td>
-                <td>jQuery</td>
-              </tr>
+            <tr>
+              <td>PostgreSQL</td>
+              <td>Oracle SQL</td> 
+              <td>SQL-lite</td>
+              <td>MySQL</td>
+              <td>Python</td>
+              <td>jQuery</td>
+            </tr>
+            <tr>
+              <th colSpan="6">Other Skills</th>
+            </tr>
+            <tr>
+              <td>Objective C</td>
+              <td>HTML5 & CSS3</td>
+              <td>Jest Testing Suite</td>
+              <td>Artillery.io</td>
+              <td>Jira, Agile, Scrum</td>
+              <td>Ping Pong</td>
+            </tr>
           </tbody>
         </table>
       </div>
