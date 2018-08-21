@@ -1,4 +1,4 @@
-header {
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,3 +6,36 @@ header {
   margin-top: 5em;
   color: #D1E8E2;
 }
+
+.logo-container {
+  max-width: 300px;
+  display: inline-block;
+}
+
+.nav-links {
+  padding: 15px 45px;
+  background-color: #2C3531;
+}
+
+.nav-links ul {
+  margin-left: 175px;
+}
+
+.nav-links ul li {
+  display: inline;
+  margin: auto;
+  margin-left: 40px;
+  margin-right: 40px;
+  max-width: 150px;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  margin: 15px; 
+  color: #D1E8E2;
+}
+
+.highlighted {
+  background-color: #FFCB9A;
+}
+

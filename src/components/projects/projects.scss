@@ -1,3 +1,23 @@
 .projects {
   color: #D1E8E2;
+  margin-top: 15px;
+}
+.row {
+  margin: 0 auto;
+  height: 480px;
+  max-width: 720px;
+  border: 2px dotted black;
+}
+
+.row div {
+  width: 345px;
+  display: inline-block;
+  vertical-align: top;
+}
+.leftItem {
+  margin-right: 25px;
+}
+
+span {
+  font-weight: bold;
 }
