@@ -25,7 +25,16 @@ table {
   padding: 10px;
 }
 th {
-  border: 1px dotted orange;
+  // border: 1px dotted orange;
+  padding-bottom: 10px;
+}
+tbody th {
+  padding-top: 5px;
+}
+
+td {
+  border: 1px solid #D1E8E2;
+  color: #FFCB9A;
 }
 
 a {

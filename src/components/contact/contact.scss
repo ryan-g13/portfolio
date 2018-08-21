@@ -1,3 +1,20 @@
 .contact {
   text-decoration: none;
+  margin: 0 auto;
+  max-width: 720px;
+  padding-bottom: 15px;
+}
+.contact h2 {
+  text-align: left;
+  max-width: 350px;
+}
+
+.contact ul {
+  max-width: 350px;
+  padding-left: 0px;
+  display: inline-block;
+}
+
+.contact img {
+  float: right;
 }
