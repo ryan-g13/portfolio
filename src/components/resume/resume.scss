@@ -1,14 +1,21 @@
 .resume {
   color: #D1E8E2;
+  margin: 0 auto;
+  
+  div{
+    max-width: 100%;
+  }
 }
 
-.resume h1 {
+.resume h1, p {
   text-align: center;
 }
 
-.resume img {
+.resume-pdf {
   margin: 0 auto;
-  display: block;
+  padding-left: 25%;
+  max-width: 730px;
+  // display: block;
 }
 
 .download-button {

@@ -22,10 +22,21 @@
   padding-top: 10px;
 }
 
+// #flower {
+//   -webkit-transform: rotate(90deg);
+// -moz-transform: rotate(90deg);
+// -o-transform: rotate(90deg);
+// -ms-transform: rotate(90deg);
+// transform: rotate(90deg);
+// }
+
 .profileImage {
-  float: right;
+  // float: right;
+  max-width: 255px;
+  max-height: 190px;
 }
 
 li img {
   padding-right: 15px;
 }
+

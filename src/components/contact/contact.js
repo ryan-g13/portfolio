@@ -1,6 +1,10 @@
 import React from 'react';
 // import { IndexLink } from 'react-router-dom';
+import profilePicture from '../../assets/Profile.jpg';
+import motorcycle from '../../assets/motorcycle.jpg';
+import flower from '../../assets/flower.jpg';
 import './contact.scss';
+
 
 export default class Contact extends React.Component {
   render() {
@@ -12,8 +16,10 @@ export default class Contact extends React.Component {
           <li><img src="http://via.placeholder.com/30x30" alt="LinkedIn Logo" />Visit my <a href='https://www.linkedin.com/in/ryan-groesch/' target="_blank" rel="noopener noreferrer">LinkedIn </a></li>
         </ul>
         <p>I am a left-handed, motorcycle riding Javascript developer.</p>
-        <img className='profileImage' src="http://via.placeholder.com/350x150" alt="Ryan Groesch's image" />
-        <img className='profileImage' src="http://via.placeholder.com/350x150" alt="Motorcycle image" />
+        <img className='profileImage' src={motorcycle} alt="Motorcycle image" />
+        <img className='profileImage' src={profilePicture} alt="Ryan Groesch's image" />
+        <img className='profileImage' id='flower' src={flower} alt="Flower image" />
+        <p>I have a background in technology, I started at T-Mobile as a tier 3 tech support and have been with Google Maps, and Amazon in varying roles. While at Amazon I discovered HTML, CSS and writing SQL queries to derive metrics and identify HVTs, this experience has helped shape me into the programmer I am today.</p>
        </div>
     );
   }

@@ -1,4 +1,9 @@
 import React from 'react';
+import eventUsLogo from '../../assets/eventUs-logo.jpg';
+import pubHubLogo from '../../assets/pubhub-small.png';
+import playAndRestLogo from '../../assets/play&rest-logo.jpg';
+// import timeBoxedLogo from '../../assets/timeboxed.jpg';
+
 import './projects.scss';
 
 export default class Projects extends React.Component {
@@ -7,7 +12,7 @@ export default class Projects extends React.Component {
       <div className='projects' >
         <div className='row' >
           <div className='leftItem' >
-            <img src="http://via.placeholder.com/350x150" alt='EventUs logo'/>
+            <img src={eventUsLogo} alt='EventUs logo'/>
             <p><a href='http://www.eventus.site' target="_blank" rel="noopener noreferrer"><span>EventUs</span></a> - This application is designed to be a social  media oriented around Events. The concept is that as a user you can sign-up in order to create, view and attend (running and drinking) events that are near the user.
             </p>
             <p>
@@ -21,7 +26,7 @@ export default class Projects extends React.Component {
             </a></p>
           </div>
           <div className='rightItem' >
-            <img src="http://via.placeholder.com/350x150" alt='PubHub Logo'/>
+            <img src={pubHubLogo} alt='PubHub Logo'/>
             <p>
               <a href='https://pub-hub.herokuapp.com' target="_blank" rel="noopener noreferrer"><span>PubHub</span></a> - This is a back-end application that generates a pub crawl, including user authentication, persistence of data via MongoDB, and route optimization via GraphHopper API. 
             </p>
@@ -37,7 +42,7 @@ export default class Projects extends React.Component {
         </div>
         <div className='row'>
           <div className='leftItem' >
-            <img src='http://via.placeholder.com/350x150' alt='Play&Rest Logo'/>
+            <img src={playAndRestLogo} alt='Play&Rest Logo'/>
             <p>
               <a href='http://playandrest.us' target="_blank" rel="noopener noreferrer"><span>Play&Rest</span></a> - This application is designed to help the user locate nearby play areas(for children and dogs alike) and water access points. 
             </p>
