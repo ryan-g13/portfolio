@@ -12,7 +12,6 @@ export default class Footer extends React.Component {
     return (
       <footer>
         <div className='footer-content'>
-          {/* <Link to={ROUTES.CONTACT}><h3 className='footer-content'>&copy; Ryan Groesch - 2018</h3></Link> */}
           <a href='/contact' data-nav='contacts' ><h3 className='footer-text'>&copy; Ryan Groesch - 2018</h3></a>
           <ul> 
             <li>

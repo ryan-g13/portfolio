@@ -19,6 +19,7 @@ export default class Contact extends React.Component {
         <img className='profileImage' src={motorcycle} alt="Motorcycle image" />
         <img className='profileImage' src={profilePicture} alt="Ryan Groesch's image" />
         <img className='profileImage' id='flower' src={flower} alt="Flower image" />
+        <p>I have a background in technology, I started at T-Mobile as a tier 3 tech support and have been with Google Maps, and Amazon in varying roles. While at Amazon I discovered HTML, CSS and writing SQL queries to derive metrics and identify HVTs, this experience has helped shape me into the programmer I am today.</p>
        </div>
     );
   }
