@@ -8,8 +8,13 @@
 }
 
 .logo-container {
+  
+  display: inline;
+}
+
+.logo-container img {
   max-width: 300px;
-  display: inline-block;
+  max-height: 150px;
 }
 
 .nav-links {
