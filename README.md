@@ -5,3 +5,7 @@ This product is to exemplify my ever evolving set of skills and projects that I 
 
 ## Skillset for this project
 Vanilla JavaScript, React.js, Node.js, 
+
+### Resources 
+Thanks to Github.com and LinkedIn.com for fair use of their logos. 
+Special thanks for logo: Denis Znakar@ Dribble.com
