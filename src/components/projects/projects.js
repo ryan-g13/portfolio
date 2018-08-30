@@ -13,7 +13,8 @@ export default class Projects extends React.Component {
         <div className='row' >
           <div className='leftItem' >
             <img src={eventUsLogo} alt='EventUs logo'/>
-            <p><a href='http://www.eventus.site' target="_blank" rel="noopener noreferrer"><span>EventUs</span></a> - This application is designed to be a social  media oriented around Events. The concept is that as a user you can sign-up in order to create, view and attend (running and drinking) events that are near the user.
+            <p>
+              <a href='http://www.eventus.site' target="_blank" rel="noopener noreferrer"><span>EventUs</span></a> - This application is designed to be a social  media oriented around Events. The concept is that as a user you can sign-up in order to create, view and attend (running and drinking) events that are near the user.
             </p>
             <p>
               The original customer is for a local Hashing club to alleviate the need to post in multiple social media platforms, provide a streamlined UI for events in the area near the user and persist the organized data in an efficient manner.
@@ -21,8 +22,8 @@ export default class Projects extends React.Component {
             <p>
               The application utilizes a MERN Stack (MongoDB, Express.js, React/Redux and Node.js) with OAuthorization to accomplish this.
             </p>
-            
-            <p><a href='https://github.com/EventUs-CF/' target="_blank" rel="noopener noreferrer"><span>GitHub Repo</span>
+            <p>
+              <a href='https://github.com/EventUs-CF/' target="_blank" rel="noopener noreferrer"><span>GitHub Repo</span>
             </a></p>
           </div>
           <div className='rightItem' >

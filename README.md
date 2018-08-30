@@ -8,3 +8,4 @@ Vanilla JavaScript, React.js, Node.js,
 
 ### Resources 
 Thanks to Github.com and LinkedIn.com for fair use of their logos. 
+Special thanks for logo: Denis Znakar@ Dribble.com

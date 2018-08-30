@@ -18,8 +18,8 @@ export default class Resume extends React.Component {
 
     return (
       <div className='resume' >
-        <h1>This is a placeholder for my resume pdf clickable/downloadable.</h1>
-        <button className='download-button'> Download</button> 
+        <h1>View my work and education history below.</h1>
+        <button className='download-button'><a href={resume} download="Ryan_Groesch_Resume">Download</a></button> 
         <div className="resume-pdf">
           <Document 
             file={resume}
