@@ -2,7 +2,7 @@ import React from 'react';
 import eventUsLogo from '../../assets/eventUs-logo.jpg';
 import pubHubLogo from '../../assets/pubhub-small.png';
 import playAndRestLogo from '../../assets/play&rest-logo.jpg';
-// import timeBoxedLogo from '../../assets/timeboxed.jpg';
+import timeBoxedLogo from '../../assets/logo-white.png';
 
 import './projects.scss';
 
@@ -57,9 +57,20 @@ export default class Projects extends React.Component {
             </a></p>
           </div>
           <div className='rightItem' >
-            <img src='http://via.placeholder.com/350x150' alt='ImageDescription'/>
-            <p><a href='https://github.com/TimeBoxed' target="_blank" rel="noopener noreferrer"><span>TimeBoxed</span></a> - Virtual Task Manager</p>
-            <p><a href='https://github.com/TimeBoxed' target="_blank" rel="noopener noreferrer"><span>GitHub Repo</span></a></p>
+            <img src={timeBoxedLogo} alt='ImageDescription'/>
+            <p>
+              <a href='https://github.com/TimeBoxed' target="_blank" rel="noopener noreferrer"><span>TimeBoxed</span></a> - Virtual Task Manager - Standalone task management application designed to integrate with your calendar to identify downtime and fill it with algorithmically ordered tasks. 
+            </p>
+            <p>
+              Tasks can be organized under a project, have dependent tasks or as singular items. In order to streamline the process default preferences can be used and stored to a user's profile.
+            </p>
+            <p> 
+              Full-stack (MERN), Material UI for styling, and OAuth 2.0 to access your calendar.  
+            </p>
+            <p>
+              <a href='https://github.com/TimeBoxed' target="_blank" rel="noopener noreferrer"><span>GitHub Repo</span>
+              </a>
+            </p>
           </div>
         </div>
       </div>
