@@ -1,10 +1,6 @@
 .resume {
   color: #D1E8E2;
   margin: 0 auto;
-  
-  div{
-    max-width: 100%;
-  }
 }
 
 .resume h1, p {
@@ -13,9 +9,12 @@
 
 .resume-pdf {
   margin: 0 auto;
-  padding-left: 25%;
-  max-width: 730px;
-  // display: block;
+  display: block;
+  max-width: 720px;
+}
+
+.react-pdf__Page__canvas {
+  margin: 0 auto;
 }
 
 .download-button {

@@ -23,7 +23,7 @@ export default class Resume extends React.Component {
         <div className="resume-pdf">
           <Document 
             file={resume}
-            onLoadSuccess={this.onDocumentLoad} className="resume"
+            onLoadSuccess={this.onDocumentLoad} className="viewable-resume"
             width='720'> 
             <Page pageNumber={pageNumber} />
           </Document>
