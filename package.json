@@ -10,6 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "watch": "webpack-dev-server --config webpack.dev.js",
+    "heroku-postbuild": "webpack --progress --config webpack.prod.js",
     "pack": "webpack --config webpack.prod.js"
   },
   "repository": {
