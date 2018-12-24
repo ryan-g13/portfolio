@@ -3,7 +3,7 @@ import eventUsLogo from '../../assets/eventUs-logo.jpg';
 import pubHubLogo from '../../assets/pubhub-small.png';
 import playAndRestLogo from '../../assets/play&rest-logo.jpg';
 import timeBoxedLogo from '../../assets/logo-white.png';
-// import IIMS from '../../assets/iims-logo.jpg';
+// import IIMS from '../../assets/iims-logo.jpg'; TODO: Need to import logo to project
 
 import './projects.scss';
 
@@ -101,6 +101,3 @@ export default class Projects extends React.Component {
     );
   }
 }
-
-
-

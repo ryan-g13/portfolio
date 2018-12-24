@@ -5,6 +5,8 @@ import RGLOGO from '../../assets/RG-Logo-Dribble-Denis-Znakar.png';
 
 import './header.scss';
 
+// TODO: Hi Lighted nav bar tabs - currently a functional component 
+
 export default class Header extends React.Component {
   render() {
     return (
