@@ -54,6 +54,10 @@ export default class Landing extends React.Component {
               <td>Jira, Agile, Scrum</td>
               <td>Ping Pong</td>
             </tr>
+            <tr>
+              <td>C#</td>
+              <td>ASP.net</td>
+            </tr>
           </tbody>
         </table>
       </div>
