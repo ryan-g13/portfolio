@@ -7,6 +7,8 @@ import IIMS from '../../assets/IIMS-Logo.png';
 
 import './projects.scss';
 
+// TODO: Center last row's singular object or add another project. 
+
 export default class Projects extends React.Component {
   render() {
     return (
