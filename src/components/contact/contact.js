@@ -13,10 +13,12 @@ export default class Contact extends React.Component {
     return (
       <div className='contact'>
         <h2 className='first-title'>A little about me.</h2>
-        <p>I am a left-handed, motorcycle riding Javascript developer.</p>
-        <img className='profileImage' src={motorcycle} alt="Motorcycle image" />
-        <img className='profileImage' src={profilePicture} alt="Ryan Groesch's image" />
-        <img className='profileImage' id='flower' src={flower} alt="Flower image" />
+        <p>I am a left-handed, motorcycle riding Full-Stack Javascript Developer.</p>
+        <div className="flexbox">
+          <img className='profileImage' src={motorcycle} alt="Motorcycle image" />
+          <img className='profileImage' id='middle' src={profilePicture} alt="Ryan Groesch's image" />
+          <img className='profileImage' src={flower} alt="Flower image" />
+        </div>
         <p>I have a background in technology, I started at T-Mobile as a tier 3 tech support and have been with Google Maps, and Amazon in varying roles. While at Amazon I discovered HTML, CSS and writing SQL queries to derive metrics and identify HVTs, this experience has helped shape me into the programmer I am today.</p> 
         <h2>Visit my profile and see my work.</h2>
         <ul>
