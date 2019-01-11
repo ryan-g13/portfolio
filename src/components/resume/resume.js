@@ -13,6 +13,14 @@ export default class Resume extends React.Component {
     this.setState({ numPages });
   }
 
+  handleNext = () => {
+    this.setState({ pageNumber: this.state.pageNumber + 1 });
+  }
+
+  handlePrevious = () => {
+    this.setState({ pageNumber: this.state.pageNumber - 1 });
+  }
+
   render() {
     const { pageNumber, numPages } = this.state;
 
@@ -28,7 +36,11 @@ export default class Resume extends React.Component {
             <Page pageNumber={pageNumber} />
           </Document>
         </div>
-          <p>Page {pageNumber} of {numPages}</p>
+        <div className="button-box">
+          <button className="small-button" onClick={this.handlePrevious}> Previous Page </button>
+          <p id="pageText">Page {pageNumber} of {numPages}</p>
+          <button className="small-button" onClick={this.handleNext}>Next Page</button>
+        </div>
       </div>
     );
   }
