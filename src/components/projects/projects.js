@@ -3,7 +3,7 @@ import eventUsLogo from '../../assets/eventUs-logo.jpg';
 import pubHubLogo from '../../assets/pubhub-small.png';
 import playAndRestLogo from '../../assets/play&rest-logo.jpg';
 import timeBoxedLogo from '../../assets/logo-white.png';
-// import IIMS from '../../assets/iims-logo.jpg'; TODO: Need to import logo to project
+import IIMS from '../../assets/IIMS-Logo.png';
 
 import './projects.scss';
 
@@ -13,11 +13,9 @@ export default class Projects extends React.Component {
       <div className='projects' >
         <div className='row' >
           <div className='leftItem' >
-            {/* <img src={IIMS} alt='IIMS logo'/> */}
+            <img src={IIMS} alt='IIMS logo'/>
             <p>
               <a href='https://github.com/IIMSforNonprofits/IIMSTemplate' target="_blank" rel="noopener noreferrer"><span>IIMS for Non-Profits</span></a> - 
-            </p>
-            <p>
               The original customer is a local non profit that was using exel spreadsheets to track inventory for inbound and outbound donations to their cause. The problem we are trying to solve is to create a user friendly and professional internal inventory management software that streamlines their workflow and ensures accuracy of current inventory on hand. This will include metrics queries and reports prepopulated via our initial setup.
             </p>
             <p>
@@ -77,7 +75,7 @@ export default class Projects extends React.Component {
             </p>
           </div>
         </div>
-        <div className='row'>
+        <div className='row' id='last-row'>
           <div className='leftItem' >
           <img src={playAndRestLogo} alt='Play&Rest Logo'/>
             <p>
@@ -94,8 +92,8 @@ export default class Projects extends React.Component {
               </a>
             </p>
           </div>
-          <div className='rightItem' >
-          </div>
+          {/* <div className='rightItem' >
+          </div> */}
         </div>
       </div>
     );
