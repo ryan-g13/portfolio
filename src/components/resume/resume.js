@@ -21,13 +21,38 @@ export default class Resume extends React.Component {
     this.setState({ pageNumber: this.state.pageNumber - 1 });
   }
 
+  renderPagination = (pageNumber, numPages) => {
+    let previousButton = <button className='small-button fancy-link resume-btn' onClick={this.handlePrevious}>Previous</button>;
+    if (pageNumber === 1) {
+      previousButton = <button className='small-button resume-btn' disabled={true} onClick={this.handlePrevious}>Previous</button>;
+    }
+    let nextButton = <button className="small-button fancy-link" onClick={this.handleNext}>Next Page</button>;
+    if (pageNumber === numPages) {
+      nextButton = <button className="small-button" disabled={true} onClick={this.handleNext}>Next Page</button>;
+    }
+    return (
+      <nav>
+        <ul className="button-box">
+          {previousButton}
+          <p id="pageText">Page {pageNumber} of {numPages}</p>
+          {nextButton}
+        </ul>
+      </nav>
+    );
+  }
+
   render() {
     const { pageNumber, numPages } = this.state;
+    
+    let pagination = null;
+    if (numPages) {
+      pagination = this.renderPagination(pageNumber, numPages);
+    }
 
     return (
       <div className='resume' >
         <h1>View my work and education history below.</h1>
-        <button className='download-button'><a href={resume} download="Ryan_Groesch_Resume">Download</a></button> 
+        <button className='download-button fancy-link'><a href={resume} download="Ryan_Groesch_Resume">Download</a></button> 
         <div className="resume-pdf">
           <Document 
             file={resume}
@@ -37,9 +62,7 @@ export default class Resume extends React.Component {
           </Document>
         </div>
         <div className="button-box">
-          <button className="small-button" onClick={this.handlePrevious}> Previous Page </button>
-          <p id="pageText">Page {pageNumber} of {numPages}</p>
-          <button className="small-button" onClick={this.handleNext}>Next Page</button>
+          {pagination}
         </div>
       </div>
     );
