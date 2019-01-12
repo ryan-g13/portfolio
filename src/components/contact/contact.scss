@@ -30,8 +30,14 @@
 // transform: rotate(90deg);
 // }
 
-.profileImage {
-  // float: right;
+.flexbox {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 720px;
+}
+
+.profileImage { 
   max-width: 255px;
   max-height: 190px;
 }

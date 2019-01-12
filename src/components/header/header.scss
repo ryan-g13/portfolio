@@ -1,38 +1,40 @@
-.header {
+.nav-bar {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   font-size: 1em;
-  margin-top: 5em;
   color: #D1E8E2;
+  height: 84px;
 }
 
 .logo-container {
-  
   display: inline;
-  float: left;
 }
 
 .logo-container img {
   max-width: 300px;
-  max-height: 80px;
+  max-height: 84px;
 }
 
 .nav-links {
   padding: 15px 45px;
   background-color: #2C3531;
+  width: 100%;
 }
 
 .nav-links ul {
-  margin-left: 175px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.nav-links ul li a:hover {
+  color: #116466,
 }
 
 .nav-links ul li {
-  display: inline;
-  margin: auto;
-  margin-left: 40px;
-  margin-right: 40px;
-  max-width: 150px;
+  padding-right: 5%;
 }
 
 .nav-links ul li a {
@@ -45,3 +47,4 @@
   background-color: #FFCB9A;
 }
 
+/* needs to be dynamic to window size*/
