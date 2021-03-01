@@ -1,7 +1,7 @@
 import React from 'react';
 import { Document, Page } from 'react-pdf';
 import './resume.scss';
-import resume from '../../assets/Ryan Groesch - Resume_SDE.pdf';
+import resume from '../../assets/Ryan_Groesch_Resume.pdf';
 
 export default class Resume extends React.Component {
   state = {

@@ -26,8 +26,15 @@ export default class Landing extends React.Component {
           <tbody>  
             <tr>
               <td>Javascript</td>
+              <td>TypeScript</td>
+              <td>Angular 6/8</td>
               <td>React.js</td>
               <td>Redux.js</td>
+              <td>HTML5 & CSS3</td>
+            </tr>
+            <tr>
+              <td>Java</td>
+              <td>SpringBoot</td>
               <td>Express.js</td>
               <td>Node.js</td>
               <td>MongoDB</td>
@@ -47,9 +54,9 @@ export default class Landing extends React.Component {
               <th colSpan="6">Other Skills</th>
             </tr>
             <tr>
-              <td>Objective C</td>
-              <td>HTML5 & CSS3</td>
+              <td>Selenium Automation Testing</td>
               <td>Jest Testing Suite</td>
+              <td>Karma Testing Suite</td>
               <td>Artillery.io</td>
               <td>Jira, Agile, Scrum</td>
               <td>Ping Pong</td>
